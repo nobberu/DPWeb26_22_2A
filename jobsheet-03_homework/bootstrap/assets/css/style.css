@@ -1,0 +1,25 @@
+/* ===== Override kecil di atas Bootstrap (~15 baris) ===== */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-brand:hover {
+    color: #d9e8f5 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9e8f5 !important;
+}
+
+form button[type="submit"]:hover {
+    background-color: #164869 !important;
+    color: #fff;
+}
